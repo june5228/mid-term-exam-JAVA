@@ -61,10 +61,10 @@ public class IfSample {
         System.out.print("두번째 값을 입력하세요 : ");
         int y = sc.nextInt();
         if(x > y){
-            System.out.println(x);
+            System.out.println("두 수 중 큰 수는 " + x + "입니다");
         }
         else if(x < y){
-            System.out.println(y);
+            System.out.println("두 수 중 큰 수는 " + y + "입니다");
         } else{
             System.out.println("두 수는 같습니다.");
         }
@@ -77,10 +77,10 @@ public class IfSample {
         System.out.print("두번째 값을 입력하세요 : ");
         int y = sc.nextInt();
         if(x > y){
-            System.out.println(y);
+            System.out.println("두 수 중 작은 수는 " + y + "입니다");
         }
         else if(x < y){
-            System.out.println(x);
+            System.out.println("두 수 중 작은 수는 " + x + "입니다");
         } else{
             System.out.println("두 수는 같습니다.");
         }
